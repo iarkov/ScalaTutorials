@@ -57,5 +57,4 @@ object FunctionUsingValInsteadOfDef extends App {
 
   // Call higher order val function
   println(f"Total cost of purchase = ${totalCost2(listDonuts)}%.2f")
-
 }
