@@ -26,5 +26,5 @@ object TypedClass extends App {
   val shoppingCart: ShoppingCart[Donut] = new ShoppingCart[Donut](Seq(vanillaDonut,glazedDonut))
   shoppingCart.printCartItems
 
-  val falseShoppingCart: ShoppingCart[Donut] = new ShoppingCart[Donut](Seq("vanillaDonut"))
+  //val falseShoppingCart: ShoppingCart[Donut] = new ShoppingCart[Donut](Seq("vanillaDonut"))
 }
